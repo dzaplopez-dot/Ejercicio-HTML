@@ -1,0 +1,48 @@
+/* Estilo base para el header del menú */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    
+}
+
+/* Logo */
+.menu__logo img {
+    height: 40px;
+   
+}
+
+/* Navegación */
+.menu__nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu__nav a {
+    text-decoration: none;
+    color: #494545a9;
+    font-weight: bold;
+}
+
+
+.menu__lang {
+    display: flex;
+    gap: 8px;
+    
+}
+
+.menu__lang a {
+    background-color: darkgray;
+    padding: 12px;
+    margin: 1%;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
