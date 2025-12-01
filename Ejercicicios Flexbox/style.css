@@ -1,0 +1,37 @@
+/* 1. Reseteo y Estructura Vertical */
+.menu-vertical ul {
+    list-style: none; /* Quita los puntos */
+    padding: 0;
+    margin: 0;
+    width: 400px; /* Ancho del menú */
+    margin-top: 20%;
+    margin-left: 60%;
+    background-color: rgb(218, 216, 216);
+
+}
+
+.menu-vertical li {
+    border-bottom: 4px solid #fffafa;
+    background-color: #e0e0e0;
+}
+
+/* 2. Activar Flexbox en la Fila */
+.menu-vertical a {
+    display: flex; /* 🔑 Habilita Flexbox */
+    align-items: center; /* Centra verticalmente */
+    text-decoration: none;
+    color: #2c2c2c;
+    padding: 10px 15px;
+    
+}
+
+/* 3. Posicionar "ENTRAR" a la Derecha */
+.boton-entrar {
+    margin-left: auto; /* 🔑 Empuja al extremo derecho */
+    
+    /* Estilos del botón */
+    border: 1px solid #282727;
+    padding: 5px 10px;
+    background-color: white;
+    
+}
