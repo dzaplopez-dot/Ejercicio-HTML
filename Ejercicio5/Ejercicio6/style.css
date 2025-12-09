@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #93d9e9;
+    margin: 0;
+}
+.contenedor-padre{
+    width: 800px;
+    background-color: rgb(114, 227, 227);
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+    
+}
+
+.contenedor-1{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    width: 480px;
+    
+}
+
+.contenedor-2{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    width: 480px;
+}
+
+.contenedor-3{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    width: 480px;
+}
