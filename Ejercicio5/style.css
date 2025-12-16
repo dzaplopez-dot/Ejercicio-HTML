@@ -1,11 +1,9 @@
-/* NOTA: Usa la unidad 'vh' para que la página ocupe toda la pantalla */
+
 body {
     margin: 0;
     min-height: 100vh;
-    /* Asegura que el body use toda la altura visible (100 viewport height) */
     display: flex;
     flex-direction: column;
-    /* Apila header, main y footer verticalmente */
     font-family: Arial, sans-serif;
 }
 
@@ -17,29 +15,11 @@ footer {
     text-align: center;
 }
 
-main {
-    flex-grow: 1;
-    /* Permite que el 'main' ocupe el espacio restante verticalmente */
-    display: grid;
-    /* Define 3 columnas: 
-       1 unidad (nav), 
-       2 unidades (article), 
-       1 unidad (aside).
-       La suma es 4 unidades (1fr + 2fr + 1fr). */
-    grid-template-columns: 1fr 2fr 1fr;
-}
-
-main>* {
-    padding: 20px;
-    border: 2px solid #ccc;
-}
-
 nav {
     background-color: #f0f8ff;
-    /* Color de ejemplo para la navegación */
+    
 }
 
 article {
     background-color: #ffffff;
-    /* Color de ejemplo para el contenido principal */
 }

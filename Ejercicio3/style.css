@@ -1,23 +1,22 @@
 
-/* Estilos para el Contenedor Exterior (PADRE) */
 .contenedor-padre {
-    width: 700px; /* Ancho fijo para el contenedor padre */
-    background-color: #f3f3f4; /* Fondo gris claro */
+    display: flex;
+    width: 700px; 
+    background-color: #f3f3f4; 
     padding: 30px;
+    margin: 30px;
     
 }
 
-/* Estilos para el Contenedor Interior (HIJO) */
 .contenedor-hijo {
-    width: 60%; /* Ocupa el 80% del ancho de su padre (.contenedor-padre) */
-    background-color: #ece9e9; /* Fondo blanco para el hijo */
+    display: flex;
+    flex-direction: column;
+    width: 60%; 
+    background-color: #ece9e9; 
     padding: 10px;
-    margin: 20px auto; /* Centra el hijo horizontalmente dentro del padre, y le da márgenes verticales */
-    
-    /* Centra el TEXTO dentro de este contenedor hijo */
+    margin: 30px auto; 
     text-align: justify; 
-    line-height: 1.6;
-    color: #555;
+    color: #0a0a0a;
 }
 
 .contenedor-hijo h4 {

@@ -1,25 +1,19 @@
-/* 1. Definir el Marco de Tamaño Fijo (el contenedor .item) */
 .item {
-    /* Establece una altura fija para todos los contenedores */
-    height: 250px; 
-    ;
+    height: 300px;
+    width: 300px;
+
 }
 
-/* 2. Estilo para la Imagen (<img>) dentro del Marco */
 .item img {
-    /* Hace que la imagen ocupe el 100% del ancho de su contenedor (.item) */
     width: 100%;
-    /* Hace que la imagen ocupe el 100% de la altura de su contenedor (250px) */
-    height: 100%;
+    height: 300px;
+
 }
 
-/* 3. Estilo de la Galería (Grid) para la Disposición Lado a Lado */
 .galeria {
-    display: grid;
-    /* Define la disposición en columnas, manteniendo cada columna flexible (1fr) */
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+    display: flex;
+    gap: 40px;
     margin: 20px auto;
     width: 90%;
-    
+
 }
